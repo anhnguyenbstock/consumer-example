@@ -1,0 +1,116 @@
+{
+  "uid" : "254aa5bc14543c5b",
+  "name" : "No product exists",
+  "fullName" : "Demo test Getting all products.No product exists",
+  "historyId" : "d7afb7238f1abeb223becea359174256",
+  "time" : {
+    "start" : 1623053004485,
+    "stop" : 1623053004513,
+    "duration" : 28
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Step 1: Add interaction",
+      "time" : {
+        "start" : 1623053004486,
+        "stop" : 1623053004494,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Step 2: Create a new API",
+      "time" : {
+        "start" : 1623053004494,
+        "stop" : 1623053004494,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Step 3: Make a request to get all products",
+      "time" : {
+        "start" : 1623053004494,
+        "stop" : 1623053004499,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Step 4: Verify the response is correct",
+      "time" : {
+        "start" : 1623053004499,
+        "stop" : 1623053004499,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Demo test Getting all products"
+  }, {
+    "name" : "testClass",
+    "value" : "Demo test Getting all products"
+  }, {
+    "name" : "testMethod",
+    "value" : "No product exists"
+  }, {
+    "name" : "package",
+    "value" : "Demo test Getting all products"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "254aa5bc14543c5b.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,94 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1623053010922' stop='1623053016655'>
+    <name>Demo test Getting one product</name>
+    <title>Demo test Getting one product</title>
+    <test-cases>
+        <test-case start='1623053016551' status='passed' stop='1623053016587'>
+            <name>Product with ID 10 exists</name>
+            <title>Product with ID 10 exists</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1623053016552' status='passed' stop='1623053016564'>
+                    <name>Step 1: Add interaction</name>
+                    <title>Step 1: Add interaction</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1623053016564' status='passed' stop='1623053016564'>
+                    <name>Step 2: Create a new API</name>
+                    <title>Step 2: Create a new API</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1623053016564' status='passed' stop='1623053016571'>
+                    <name>Step 3: Make a request to get product with id = 10</name>
+                    <title>Step 3: Make a request to get product with id = 10</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1623053016571' status='passed' stop='1623053016572'>
+                    <name>Step 4: Create a new API</name>
+                    <title>Step 4: Create a new API</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1623053016587' status='passed' stop='1623053016616'>
+            <name>Product with ID 12 does not exist</name>
+            <title>Product with ID 12 does not exist</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1623053016587' status='passed' stop='1623053016595'>
+                    <name>Step 1: Add interaction</name>
+                    <title>Step 1: Add interaction</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1623053016595' status='passed' stop='1623053016595'>
+                    <name>Step 2: Create a new API</name>
+                    <title>Step 2: Create a new API</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1623053016595' status='passed' stop='1623053016601'>
+                    <name>Step 3: Make a request and verify the response is correct</name>
+                    <title>Step 3: Make a request and verify the response is correct</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1623053016616' status='passed' stop='1623053016643'>
+            <name>No auth token</name>
+            <title>No auth token</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1623053016617' status='passed' stop='1623053016623'>
+                    <name>Step 1: Add interaction</name>
+                    <title>Step 1: Add interaction</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1623053016623' status='passed' stop='1623053016623'>
+                    <name>Step 2: Make a request and verify the response is correct</name>
+                    <title>Step 2: Make a request and verify the response is correct</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1623053016623' status='passed' stop='1623053016629'>
+                    <name>Step 3: Make a request and verify the response is correct</name>
+                    <title>Step 3: Make a request and verify the response is correct</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

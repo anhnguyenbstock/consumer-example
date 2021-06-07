@@ -1,0 +1,101 @@
+{
+  "uid" : "4f0dfc9fa235466b",
+  "name" : "No auth token",
+  "fullName" : "Demo test Getting one product.No auth token",
+  "historyId" : "79d6c27c3dd02e4d0fe502d27ef6d2c8",
+  "time" : {
+    "start" : 1623053016616,
+    "stop" : 1623053016643,
+    "duration" : 27
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Step 1: Add interaction",
+      "time" : {
+        "start" : 1623053016617,
+        "stop" : 1623053016623,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Step 2: Make a request and verify the response is correct",
+      "time" : {
+        "start" : 1623053016623,
+        "stop" : 1623053016623,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Step 3: Make a request and verify the response is correct",
+      "time" : {
+        "start" : 1623053016623,
+        "stop" : 1623053016629,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Demo test Getting one product"
+  }, {
+    "name" : "testClass",
+    "value" : "Demo test Getting one product"
+  }, {
+    "name" : "testMethod",
+    "value" : "No auth token"
+  }, {
+    "name" : "package",
+    "value" : "Demo test Getting one product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4f0dfc9fa235466b.json",
+  "parameterValues" : [ ]
+}

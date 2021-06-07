@@ -1,0 +1,134 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Demo test Getting all products",
+    "children" : [ {
+      "name" : "All products exist",
+      "uid" : "f5181a64ff7247d6",
+      "parentUid" : "ccc8aceb42690f6cf95f09ba639e441c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623053004418,
+        "stop" : 1623053004485,
+        "duration" : 67
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "No product exists",
+      "uid" : "254aa5bc14543c5b",
+      "parentUid" : "ccc8aceb42690f6cf95f09ba639e441c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623053004485,
+        "stop" : 1623053004513,
+        "duration" : 28
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "No auth token",
+      "uid" : "e4bac6a10a4fa46",
+      "parentUid" : "ccc8aceb42690f6cf95f09ba639e441c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623053004513,
+        "stop" : 1623053004548,
+        "duration" : 35
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ccc8aceb42690f6cf95f09ba639e441c"
+  }, {
+    "name" : "Demo test Getting all products name",
+    "children" : [ {
+      "name" : "Products name exist",
+      "uid" : "95514dfbaea4cd1",
+      "parentUid" : "db3602cf6381a2be8b89ef68a8241e16",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623053010520,
+        "stop" : 1623053010559,
+        "duration" : 39
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "No product name exists",
+      "uid" : "8bdc2a9b8c13e8e",
+      "parentUid" : "db3602cf6381a2be8b89ef68a8241e16",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623053010559,
+        "stop" : 1623053010588,
+        "duration" : 29
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "No auth token",
+      "uid" : "817c31843fdd10d9",
+      "parentUid" : "db3602cf6381a2be8b89ef68a8241e16",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623053010589,
+        "stop" : 1623053010616,
+        "duration" : 27
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "db3602cf6381a2be8b89ef68a8241e16"
+  }, {
+    "name" : "Demo test Getting one product",
+    "children" : [ {
+      "name" : "Product with ID 10 exists",
+      "uid" : "ea327048af70c8a7",
+      "parentUid" : "a3bfa230dafbe05717d4d38d1b7c4da7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623053016551,
+        "stop" : 1623053016587,
+        "duration" : 36
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Product with ID 12 does not exist",
+      "uid" : "e265bb8f85d577ca",
+      "parentUid" : "a3bfa230dafbe05717d4d38d1b7c4da7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623053016587,
+        "stop" : 1623053016616,
+        "duration" : 29
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "No auth token",
+      "uid" : "4f0dfc9fa235466b",
+      "parentUid" : "a3bfa230dafbe05717d4d38d1b7c4da7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623053016616,
+        "stop" : 1623053016643,
+        "duration" : 27
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a3bfa230dafbe05717d4d38d1b7c4da7"
+  } ]
+}

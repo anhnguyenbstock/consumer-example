@@ -1,0 +1,101 @@
+{
+  "uid" : "e265bb8f85d577ca",
+  "name" : "Product with ID 12 does not exist",
+  "fullName" : "Demo test Getting one product.Product with ID 12 does not exist",
+  "historyId" : "91297f225806f9910fe4267e1f9f9416",
+  "time" : {
+    "start" : 1623053016587,
+    "stop" : 1623053016616,
+    "duration" : 29
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Step 1: Add interaction",
+      "time" : {
+        "start" : 1623053016587,
+        "stop" : 1623053016595,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Step 2: Create a new API",
+      "time" : {
+        "start" : 1623053016595,
+        "stop" : 1623053016595,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Step 3: Make a request and verify the response is correct",
+      "time" : {
+        "start" : 1623053016595,
+        "stop" : 1623053016601,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Demo test Getting one product"
+  }, {
+    "name" : "testClass",
+    "value" : "Demo test Getting one product"
+  }, {
+    "name" : "testMethod",
+    "value" : "Product with ID 12 does not exist"
+  }, {
+    "name" : "package",
+    "value" : "Demo test Getting one product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e265bb8f85d577ca.json",
+  "parameterValues" : [ ]
+}

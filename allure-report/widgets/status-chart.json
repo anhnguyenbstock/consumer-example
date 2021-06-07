@@ -1,0 +1,91 @@
+[ {
+  "uid" : "4f0dfc9fa235466b",
+  "name" : "No auth token",
+  "time" : {
+    "start" : 1623053016616,
+    "stop" : 1623053016643,
+    "duration" : 27
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "254aa5bc14543c5b",
+  "name" : "No product exists",
+  "time" : {
+    "start" : 1623053004485,
+    "stop" : 1623053004513,
+    "duration" : 28
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f5181a64ff7247d6",
+  "name" : "All products exist",
+  "time" : {
+    "start" : 1623053004418,
+    "stop" : 1623053004485,
+    "duration" : 67
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "817c31843fdd10d9",
+  "name" : "No auth token",
+  "time" : {
+    "start" : 1623053010589,
+    "stop" : 1623053010616,
+    "duration" : 27
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "95514dfbaea4cd1",
+  "name" : "Products name exist",
+  "time" : {
+    "start" : 1623053010520,
+    "stop" : 1623053010559,
+    "duration" : 39
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e265bb8f85d577ca",
+  "name" : "Product with ID 12 does not exist",
+  "time" : {
+    "start" : 1623053016587,
+    "stop" : 1623053016616,
+    "duration" : 29
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8bdc2a9b8c13e8e",
+  "name" : "No product name exists",
+  "time" : {
+    "start" : 1623053010559,
+    "stop" : 1623053010588,
+    "duration" : 29
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ea327048af70c8a7",
+  "name" : "Product with ID 10 exists",
+  "time" : {
+    "start" : 1623053016551,
+    "stop" : 1623053016587,
+    "duration" : 36
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e4bac6a10a4fa46",
+  "name" : "No auth token",
+  "time" : {
+    "start" : 1623053004513,
+    "stop" : 1623053004548,
+    "duration" : 35
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
