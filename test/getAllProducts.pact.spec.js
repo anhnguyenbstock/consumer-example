@@ -14,10 +14,9 @@ describe('Demo test', () => {
         test('All products exist', async () => {
 
             // this is the response you expect from your Provider
-            const expectedProduct = {id: '09', name: 'Gem Visa', type: 'CREDIT_CARD', version: 'v1'}
-            // const expectedProduct = [{id: '09', name: 'Gem Visa', type: 'CREDIT_CARD', version: 'v1'},
-            //                         {id: '10', name: '28 Degrees', type: 'CREDIT_CARD', version: 'v1'},
-            //                         {id: '11', name: 'MyFlexiPay', type: 'PERSONAL_LOAN', version: 'v2'}]
+            const expectedProduct = [{id: '09', name: 'Gem Visa', type: 'CREDIT_CARD', version: 'v1'},
+                                    {id: '10', name: '28 Degrees', type: 'CREDIT_CARD', version: 'v1'},
+                                    {id: '11', name: 'MyFlexiPay', type: 'PERSONAL_LOAN', version: 'v2'}]
 
             reporter.startStep("Step 1: Add interaction");
             await pact.addInteraction({
