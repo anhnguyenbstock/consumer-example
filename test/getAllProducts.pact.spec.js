@@ -56,64 +56,64 @@ describe('Demo test', () => {
             reporter.endStep();
         });
 
-        // test('No product exists', async () => {
-        //     reporter.startStep("Step 1: Add interaction");
-        //     await pact.addInteraction({
-        //         state: 'no product exists',
-        //         uponReceiving: 'a request to get all products',
-        //         withRequest: {
-        //             method: 'GET',
-        //             path: '/products',
-        //             headers: {
-        //                 Authorization: like('Bearer 2019-01-14T11:34:18.045Z'),
-        //             },
-        //         },
-        //         willRespondWith: {
-        //             status: 200,
-        //             headers: {
-        //                 'Content-Type': regex({generate: 'application/json; charset=utf-8', matcher: 'application/json;?.*'}),
-        //             },
-        //             body: [],
-        //         },
-        //     });
-        //     reporter.endStep();
-        //
-        //     reporter.startStep("Step 2: Create a new API");
-        //     const api = new API(`${url + port}`);
-        //     reporter.endStep();
-        //
-        //     reporter.startStep("Step 3: Make a request to get all products");
-        //     const products = await api.getAllProducts();
-        //     reporter.endStep();
-        //
-        //     reporter.startStep("Step 4: Verify the response is correct");
-        //     expect(products).toEqual([]);
-        //     reporter.endStep();
-        // });
-        //
-        // test("No auth token", async () => {
-        //     reporter.startStep("Step 1: Add interaction");
-        //     await pact.addInteraction({
-        //         state: 'no auth token when getting all products',
-        //         uponReceiving: 'a request to get all products with no auth token',
-        //         withRequest: {
-        //             method: 'GET',
-        //             path: '/products'
-        //         },
-        //         willRespondWith: {
-        //             status: 401
-        //         },
-        //     });
-        //     reporter.endStep();
-        //
-        //     reporter.startStep("Step 2: Create a new API")
-        //     const api = new API(`${url + port}`);
-        //     reporter.endStep();
-        //
-        //     reporter.startStep("Step 3: Make a request and verify the response is correct");
-        //     await expect(api.getAllProducts()).rejects.toThrow("Request failed with status code 401");
-        //     reporter.endStep();
-        // });
+        test('No product exists', async () => {
+            reporter.startStep("Step 1: Add interaction");
+            await pact.addInteraction({
+                state: 'no product exists',
+                uponReceiving: 'a request to get all products',
+                withRequest: {
+                    method: 'GET',
+                    path: '/products',
+                    headers: {
+                        Authorization: like('Bearer 2019-01-14T11:34:18.045Z'),
+                    },
+                },
+                willRespondWith: {
+                    status: 200,
+                    headers: {
+                        'Content-Type': regex({generate: 'application/json; charset=utf-8', matcher: 'application/json;?.*'}),
+                    },
+                    body: [],
+                },
+            });
+            reporter.endStep();
+
+            reporter.startStep("Step 2: Create a new API");
+            const api = new API(`${url + port}`);
+            reporter.endStep();
+
+            reporter.startStep("Step 3: Make a request to get all products");
+            const products = await api.getAllProducts();
+            reporter.endStep();
+
+            reporter.startStep("Step 4: Verify the response is correct");
+            expect(products).toEqual([]);
+            reporter.endStep();
+        });
+
+        test("No auth token", async () => {
+            reporter.startStep("Step 1: Add interaction");
+            await pact.addInteraction({
+                state: 'no auth token when getting all products',
+                uponReceiving: 'a request to get all products with no auth token',
+                withRequest: {
+                    method: 'GET',
+                    path: '/products'
+                },
+                willRespondWith: {
+                    status: 401
+                },
+            });
+            reporter.endStep();
+
+            reporter.startStep("Step 2: Create a new API")
+            const api = new API(`${url + port}`);
+            reporter.endStep();
+
+            reporter.startStep("Step 3: Make a request and verify the response is correct");
+            await expect(api.getAllProducts()).rejects.toThrow("Request failed with status code 401");
+            reporter.endStep();
+        });
 
         // (5) validate the interactions you've registered and expected occurred
         // this will throw an error if it fails telling you what went wrong
