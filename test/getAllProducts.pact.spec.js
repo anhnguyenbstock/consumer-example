@@ -114,7 +114,7 @@ describe('Demo test', () => {
         //     await expect(api.getAllProducts()).rejects.toThrow("Request failed with status code 401");
         //     reporter.endStep();
         // });
-        //
+
         // (5) validate the interactions you've registered and expected occurred
         // this will throw an error if it fails telling you what went wrong
         // This should be performed once per interaction test
