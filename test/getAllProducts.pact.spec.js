@@ -91,29 +91,29 @@ describe('Demo test', () => {
             reporter.endStep();
         });
 
-        test("No auth token", async () => {
-            reporter.startStep("Step 1: Add interaction");
-            await pact.addInteraction({
-                state: 'no auth token when getting all products',
-                uponReceiving: 'a request to get all products with no auth token',
-                withRequest: {
-                    method: 'GET',
-                    path: '/products'
-                },
-                willRespondWith: {
-                    status: 401
-                },
-            });
-            reporter.endStep();
-
-            reporter.startStep("Step 2: Create a new API")
-            const api = new API(`${url + port}`);
-            reporter.endStep();
-
-            reporter.startStep("Step 3: Make a request and verify the response is correct");
-            await expect(api.getAllProducts()).rejects.toThrow("Request failed with status code 401");
-            reporter.endStep();
-        });
+        // test("No auth token", async () => {
+        //     reporter.startStep("Step 1: Add interaction");
+        //     await pact.addInteraction({
+        //         state: 'no auth token when getting all products',
+        //         uponReceiving: 'a request to get all products with no auth token',
+        //         withRequest: {
+        //             method: 'GET',
+        //             path: '/products'
+        //         },
+        //         willRespondWith: {
+        //             status: 401
+        //         },
+        //     });
+        //     reporter.endStep();
+        //
+        //     reporter.startStep("Step 2: Create a new API")
+        //     const api = new API(`${url + port}`);
+        //     reporter.endStep();
+        //
+        //     reporter.startStep("Step 3: Make a request and verify the response is correct");
+        //     await expect(api.getAllProducts()).rejects.toThrow("Request failed with status code 401");
+        //     reporter.endStep();
+        // });
 
         // (5) validate the interactions you've registered and expected occurred
         // this will throw an error if it fails telling you what went wrong
